@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false" android:orientation="vertical" android:weightSum="1">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/left" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:text="Control The Car"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" 
+            android:background="@drawable/round_button"
+            android:gravity="center"
+            android:textStyle="bold|italic"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="22sp"
+            android:layout_marginTop="139sp"
+            android:layout_toRightOf="@+id/button5"
+            android:background="@drawable/right" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@+id/button4"
+            android:background="@drawable/up" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="JSH"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffff" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignRight="@+id/button2"
+            android:layout_below="@+id/editText1"
+            android:background="@drawable/round_button"
+            android:text="OK" 
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/staring" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/button5"
+            android:layout_toLeftOf="@+id/button3"
+            android:background="@drawable/down" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Enter Device Name"
+            android:inputType="textPersonName" >
+			
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+   
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal">
+    
+    
+    <TextView 
+        
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Bluetooth Control Car"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+       	android:textSize="30sp"
+        android:background="@color/blue"
+        android:gravity="center"
+        />
+    
+    <ImageView 
+        
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon"
+        android:background="@drawable/cell_shape"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        />
+    <Button 
+        android:id="@+id/btnControl"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        
+        android:text="Control"
+          android:textColor="@color/white"
+        android:textStyle="bold|italic"
+       	android:textSize="22sp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        
+		android:drawableLeft="@drawable/icon"        
+        
+        />
+     <Button 
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+      android:id="@+id/btnHelp"
+        android:text="Help"
+         android:textColor="@color/white"
+        android:textStyle="bold|italic"
+       	android:textSize="22sp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        
+		android:drawableLeft="@drawable/icon"   
+        
+        />
+      <Button 
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+       android:id="@+id/btnAbout"
+        android:text="About"
+         android:textColor="@color/white"
+        android:textStyle="bold|italic"
+       	android:textSize="22sp"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        
+		android:drawableLeft="@drawable/icon"   
+        
+        />
+    
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# Build outputs
+/build/
+/app/build/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+.DS_Store
+
+# Gradle caches
+.gradle/
+local.properties
+
+# Generated files
+/gen/
+/out/
+
+# Keystore files
+*.jks
+*.keystore

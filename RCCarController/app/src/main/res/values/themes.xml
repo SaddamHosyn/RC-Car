@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme — values are mostly overridden by Compose Material3 -->
+    <style name="Theme.RCCarController" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>
